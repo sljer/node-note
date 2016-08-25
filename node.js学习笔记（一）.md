@@ -50,7 +50,7 @@ Node.js的哲♂学：花最小的硬件成本，追求更高的并发，更高�
 **事件驱动event-driven**
 
 在Node中，客户端请求建立连接，提交数据等行为，会触发相应的事件，**在一个时刻，只能执行一个事件回调函数，但是在执行一个事件回调函数的中途，可以转而处理其他事件（比如，又有新用户连接了），然后返回继续执行原事件的回调函数，这种处理机制，称为“事件环”机制。**
-[![](http://blog.wuyuejianjue.com/usr/themes/next/images/a3.png)](http://wuyuejianjue/blog/wuyuejianjue/usr/themes/next/images/a3.png)
+<!--[![](http://blog.wuyuejianjue.com/usr/themes/next/images/a3.png)](http://wuyuejianjue/blog/wuyuejianjue/usr/themes/next/images/a3.png)-->
 ------------
 
 Node.js底层是C++（V8也是C++写的）。底层代码中，近半数都用于事件队列、回调函数队列的构建。
