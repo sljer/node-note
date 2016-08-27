@@ -7,7 +7,7 @@
 
 ● Node.js中，一个JavaScript文件中定义的变量、函数，都只在这个文件内部有效。当需要从此JS文件外部引用这些变量、函数时，必须使用exports对象进行暴露。使用者要用require()命令引用这个JS文件。
 <!--more-->
-foo.js文件中的代码：
+foo.js文件中的代码：  
 ```javascript
 var msg = "你好";
 exports.msg = msg;
