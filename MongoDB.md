@@ -39,9 +39,7 @@ SELECT * FROM step1 WHERE xingbie = '女' AND nianling < 24 AND nianling >= 20 A
  
 #### 二、NoSQL
 **非结构型数据库。没有行、列的概念。用JSON来存储数据。集合就相当于“表”，文档就相当于“行”。**
-![](http://blog.wuyuejianjue.com/usr/themes/next/images/a4.png)
 **文档就是JSON，上下文语境中，也是JavaScript范畴，所以我们的数据库也是JS范畴的东西，JS全栈。**
-![](http://blog.wuyuejianjue.com/usr/themes/next/images/a5.png)
 
 NoSQL数据库在以下的这几种情况下比较适用：1、数据模型比较简单；2、需要灵活性更强的IT系统；3、对数据库性能要求较高；4、不需要高度的数据一致性；5、对于给定key，比较容易映射复杂值的环境。
  
